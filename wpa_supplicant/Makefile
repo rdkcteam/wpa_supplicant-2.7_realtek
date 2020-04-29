@@ -6,8 +6,8 @@ ifndef CFLAGS
 CFLAGS = -MMD -O2 -Wall -g
 endif
 
-DIR_LINUX_KERNEL = $(DIR_ROOT)/linux-3.10
-DIR_LINUX_USERS = $(DIR_ROOT)/users
+#DIR_LINUX_KERNEL = $(DIR_ROOT)/linux-3.10
+#DIR_LINUX_USERS = $(DIR_ROOT)/users
 
 ifdef LIBS
 # If LIBS is set with some global build system defaults, clone those for
